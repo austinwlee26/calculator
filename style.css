@@ -1,0 +1,97 @@
+/* body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+#calculator-body {
+    background-color: gray;
+    width: 330px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#otherbtns {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.smlbtn {
+    width: 80px;
+    height: 80px;
+}
+
+.lrgbtn {
+    flex-grow: 1;
+}
+
+.rows {
+    background-color: darkgray;
+    width: 320px;
+    height: 80px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+
+/* .rows {
+    background-color: darkgray;
+    width: 320px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.smlbtn {
+    flex: 1 1 0%;
+}
+
+.lrgbtn {
+    flex: 1 1 0%;
+} */
+
+/* #display{
+    background-color: darkgray;
+    width: 320px;
+    height: 100px;
+}
+
+#clrbtns{
+    background-color: darkgray;
+    width: 320px;
+    height: 100px;
+}
+
+#row4{
+    background-color: darkgray;
+    width: 320px;
+    height: 100px;
+}
+
+#row3{
+    background-color: darkgray;
+    width: 320px;
+    height: 100px;
+}
+
+#row2{
+    background-color: darkgray;
+    width: 500px;
+    height: 100px;
+}
+
+#row1{
+    background-color: darkgray;
+    width: 500px;
+    height: 100px; */
+}
